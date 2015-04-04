@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name" translatable="false">Blood4Lives</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="menu_settings" translatable="false">Settings</string>
+    <string name="title_activity_main" translatable="false">Android Push Notifications</string>
+    <string name="error_config" translatable="false">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered" translatable="false">Already registered.</string>
+    <string name="gcm_registered" translatable="false">GCM: Successfully registered.</string>
+    <string name="gcm_unregistered" translatable="false">GCM: Successfully unregistered.</string>
+    <string name="gcm_message" translatable="false">GCM: Got message!</string>
+    <string name="gcm_error" translatable="false">GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error" translatable="false">GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted" translatable="false">GCM: deleted %1$d pending messages!</string>
+    <string name="server_registered" translatable="false">Android device added.</string>
+    <string name="server_unregistered" translatable="false">Android device removed.</string>
+    <string name="server_unregister_error" translatable="false">Could not unregister Android device on App Server (%1$s).</string>
+    <string name="options_register" translatable="false">Register</string>
+    <string name="options_unregister" translatable="false">Unregister</string>
+    <string name="options_clear" translatable="false">Clear</string>
+    <string name="options_exit" translatable="false">Exit</string>
+
+</resources>

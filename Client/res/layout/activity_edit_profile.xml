@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/awsomebg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bloodforlives.EditProfileActivity" >
+
+    <TextView
+        android:id="@+id/update_fname_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/user_fname"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/update_fname_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/update_fname_textview"
+        android:layout_alignTop="@id/update_fname_textview"
+        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:inputType="textPersonName" />
+    
+    <TextView
+        android:id="@+id/update_lname_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_fname_textview"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/user_lname"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/update_lname_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_fname_edittext"
+        android:layout_toRightOf="@id/update_lname_textview"
+        android:layout_alignTop="@id/update_lname_textview"
+        android:layout_alignLeft="@id/update_fname_edittext"
+        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/update_mail_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_lname_textview"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/email_id"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/update_mail_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_mail_edittext"
+        android:layout_toRightOf="@id/update_mail_textview"
+        android:layout_alignTop="@id/update_mail_textview"
+        android:layout_alignLeft="@id/update_fname_edittext"
+        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:inputType="textEmailAddress" />
+    
+    <TextView
+        android:id="@+id/update_blood_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_mail_textview"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/blood_group"
+        android:textColor="#ffffff" />
+
+    <Spinner
+        android:id="@+id/update_blood_spinner"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/update_mail_edittext"
+        android:layout_toRightOf="@id/update_blood_textview"
+        android:layout_alignTop="@id/update_blood_textview"
+        android:layout_alignLeft="@id/update_fname_edittext"
+         />
+    
+    <TextView
+        android:id="@+id/update_address_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_blood_textview"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/address"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/update_address_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_blood_spinner"
+        android:layout_toRightOf="@id/update_address_textview"
+        android:layout_alignTop="@id/update_address_textview"
+        android:layout_alignLeft="@id/update_fname_edittext"
+        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:inputType="textPostalAddress" />
+    
+    <TextView
+        android:id="@+id/update_dob_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_address_textview"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/dob"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:layout_marginBottom="78dp"
+        android:text="@string/update"
+        android:textColor="#ffffff" />
+
+    <DatePicker
+        android:id="@+id/update_dob_datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_address_edittext"
+        android:layout_alignLeft="@id/update_fname_edittext"
+         />
+
+</RelativeLayout>
